@@ -76,7 +76,7 @@ function renderizarMusica(musicaIndex) {
 
     musica.addEventListener("loaddata", () => {
         nomeMusica.textContent = musicas[musicaIndex].titulo;
-        nomeArtista.textContent = msuicas[musicaIndex].artista;
+        nomeArtista.textContent = musicas[musicaIndex].artista;
         imagem.src = musicas[musicaIndex].img;
 
         duracaoMusica.textContent = converterSegundosParaMinutos(Math.floor(musica.duration));
