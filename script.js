@@ -35,7 +35,7 @@ document.querySelector(".anterior").addEventListener("click", () => {
 });
 
 document.querySelector(".proximo").addEventListener("click", () => {
-    musica++;
+    musicaIndex++;
     if(musicaIndex > 2) {
         musicaIndex = 0;
     }
